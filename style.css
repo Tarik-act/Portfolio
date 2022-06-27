@@ -278,6 +278,10 @@ a {
   .navigation__link {
     font-size: 1rem;
   }
+  .work__right img {
+    width: 100%;
+  }
+
   .work {
     margin-top: 5rem;
   }
@@ -309,6 +313,9 @@ a {
 }
 
 @media (max-width: 500px) {
+  .section-header {
+    min-height: 100%;
+  }
   .hero__paragraph,
   .work__left p {
     width: auto;
@@ -358,6 +365,10 @@ a {
     width: 50%;
     height: 100%;
     justify-content: space-between;
+  }
+
+  .work__right img {
+    width: 100%;
   }
 
   .tag-item:not(:last-child) {
