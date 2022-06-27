@@ -28,6 +28,10 @@ h2 {
   font-size: 50px;
 }
 
+h3 {
+  margin: 1rem 0;
+}
+
 .heading-medium {
   margin: 1rem auto;
 }
@@ -317,7 +321,8 @@ a {
     min-height: 100%;
   }
   .hero__paragraph,
-  .work__left p {
+  .work__left p,
+  .work__right p {
     width: auto;
     font-size: 1rem;
   }
