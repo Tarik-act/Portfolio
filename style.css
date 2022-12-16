@@ -60,7 +60,7 @@ p {
   position: relative;
   background-color: #90e0ef;
   padding: 2rem 5rem;
-  min-height: 90%;
+  min-height: 95%;
 }
 
 .navigation {
@@ -290,7 +290,7 @@ a {
     width: 100%;
   }
   .work__left p {
-    width: 100%;
+    width: fit-content;
   }
 
   .footer__work {
@@ -323,7 +323,7 @@ a {
     padding: 0.75rem 3rem;
   }
   .section-header {
-    height: 100%;
+    min-height: fit-content;
   }
 
   .hero__paragraph {
@@ -343,7 +343,7 @@ a {
 
 @media (max-width: 500px) {
   .section-header {
-    min-height: 100%;
+    min-height: fit-content;
   }
   .hero__paragraph,
   .work__left p,
@@ -376,6 +376,9 @@ a {
 }
 
 @media (max-width: 450px) {
+  .hero {
+    margin: 2rem 0;
+  }
   .navigation__link {
     font-size: 0.75rem;
   }
