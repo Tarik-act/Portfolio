@@ -111,6 +111,15 @@ p {
   width: 500px;
 }
 
+.btn-group {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  /* align-items: center; */
+  transition: all 0.4s;
+}
+
 .btn {
   position: relative;
   font-family: inherit;
@@ -123,6 +132,7 @@ p {
   transition: all 0.4s;
   cursor: pointer;
 }
+
 .btn a {
   text-decoration: none;
   color: #fff;
@@ -147,6 +157,16 @@ p {
 .btn:active:after {
   top: 0;
   left: 0;
+}
+
+.btn-secondary {
+  color: #000;
+  background-color: #90e0ef;
+  border: 1px solid #90e0ef;
+}
+
+.btn-secondary::after {
+  border: 2px solid #90e0ef;
 }
 
 /* Scroll */
@@ -305,6 +325,11 @@ a {
   .section-header {
     height: 100%;
   }
+
+  .hero__paragraph {
+    width: 100%;
+  }
+
   .btn {
     margin: 1rem auto;
     padding: 10px 28px;
@@ -378,5 +403,9 @@ a {
 
   .tag-item:not(:last-child) {
     margin-bottom: 0.5rem;
+  }
+  .btn-group {
+    flex-direction: column;
+    gap: 0rem;
   }
 }
