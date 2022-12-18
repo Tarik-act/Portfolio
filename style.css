@@ -368,10 +368,14 @@ a {
   }
   .copy-right {
     font-size: 0.75rem;
-    color: #b7b4b9;
+    color: #696969;
     position: absolute;
     bottom: 0;
-    left: 2rem;
+    left: 25%;
+  }
+
+  .footer__work {
+    height: 15rem;
   }
 }
 
@@ -410,5 +414,11 @@ a {
   .btn-group {
     flex-direction: column;
     gap: 0rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .copy-right {
+    left: 15%;
   }
 }
